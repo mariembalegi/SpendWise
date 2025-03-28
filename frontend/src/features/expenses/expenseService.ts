@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Expense } from "@shared/types/types";
 
-const API_URL = "api/expenses/";
+const API_URL = "https://spendwise-tra5.onrender.com/api/expenses/";
 
 // Reusable config function
 const createConfig = (token: string) => ({

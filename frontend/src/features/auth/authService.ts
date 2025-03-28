@@ -1,7 +1,7 @@
 import axios from "axios";
 import { UserData } from "@shared/types/types";
 
-const API_URL = "api/users/";
+const API_URL = "https://spendwise-tra5.onrender.com/api/users/";
 
 const register = async (userData: UserData) => {
   try {
