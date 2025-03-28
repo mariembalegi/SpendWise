@@ -5,7 +5,7 @@ export interface User {
   profilePicture?: string;
 }
 
-export interface Expense {
+export interface Expense extends MongoDocument{
   user: User;
   text: string;
   customDate?: string;

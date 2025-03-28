@@ -62,7 +62,7 @@ function Home() {
         } text-primary-content`}
       >
         <div>
-          <p>My Balance</p>
+          <p>My current Balance</p>
           <p className="text-2xl font-semibold">{formatCurrency(actualBalance)}</p>
         </div>
         <div>

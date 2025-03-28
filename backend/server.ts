@@ -30,7 +30,7 @@ app.use(errorHandler);
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("hello world");
+  res.send("hello");
 });
 
 // Start server
